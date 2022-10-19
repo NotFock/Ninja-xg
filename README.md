@@ -9,7 +9,7 @@
 -v $PWD/ql/jbot:/ql/jbot \
 -v $PWD/ql/repo:/ql/repo \
 -v $PWD/ql/ninja:/ql/ninja \
--p 5701:5700 \
+-p 5700:5700 \
 -p 5701:5701 \
 -e ENABLE_HANGUP=true \
 -e ENABLE_WEB_PANEL=true \
