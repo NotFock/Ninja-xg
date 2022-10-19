@@ -9,8 +9,8 @@
 docker run -dit \
 -v $PWD/ql:/ql/data \
 -v $PWD/ql/ninja:/ql/ninja \
--p 5700:5700 \
--p 5701:5701 \
+-p 5700:5700 \     #此为青龙运行端口，前5700可以改为你想使用的端口，例-5800:5700
+-p 5701:5701 \     #此为ninja运行端口，前后5701保持一致可以改为你想使用的端口，例-5900:5900
 --name qinglong \
 --hostname qinglong \
 --restart always \
