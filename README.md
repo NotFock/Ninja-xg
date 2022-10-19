@@ -1,8 +1,8 @@
 #### 注意：
  本库只是用2.12及以上青龙版本！！
  拉取本库需手动修改```/backend/.env.example```文件中的ninja运行端口和青龙地址为你自己实际使用的端口。
-####教程
-
+ 
+#### 教程：
  1.安装青龙
  安装2.12.2
    ```
@@ -68,13 +68,13 @@ pm2 start
 
 **修改完成后需要 `pm2 start` 重启生效 ！！！**
 
-### SendNotify 环境变量
+#### SendNotify 环境变量
 
 **此环境变量在青龙中配置！！！**
 
 - `NOTIFY_SKIP_LIST`: 通知黑名单，使用 `&` 分隔，例如 `东东乐园&东东萌宠`;
 
-## 注意事项
+#### 注意事项
 
 - 重启后务必执行一次 `ql extra` 保证 Ninja 配置成功。
 
@@ -82,7 +82,7 @@ pm2 start
 
 - Qinglong 需要在登录状态（`auth.json` 中有 token）
 
-## 如何更新Ninja
+#### 如何更新Ninja
 
 ```bash
 cd /ql/ninja
@@ -92,7 +92,7 @@ cd backend
 pm2 start
 ```
 
-## 如何删除Ninja
+#### 如何删除Ninja
 
 ```bash
 cd /ql/ninja
