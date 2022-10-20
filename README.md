@@ -10,7 +10,7 @@ docker run -dit \
 -v $PWD/ql:/ql/data \
 -v $PWD/ql/ninja:/ql/ninja \
 -p 5700:5700 \
--p 5701:5701 \
+-p 5701:80 \
 --name qinglong \
 --hostname qinglong \
 --restart always \
@@ -19,7 +19,7 @@ whyour/qinglong:2.12.2
    ps:
    ```
    -p 5700:5700 \     #此为青龙运行端口，前5700可以改为你想使用的端口，例-5800:5700
-   -p 5701:5701 \     #此为ninja运行端口，前后5701保持一致可以改为你想使用的端口，例-5900:5900
+   -p 5701:80 \     #此为ninja运行端口，5701可以改为你想使用的端口，例-5900:80
 ```
 
 2. 进容器内命令
