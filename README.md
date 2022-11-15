@@ -49,7 +49,7 @@ whyour/qinglong:2.12.2
    **进容器内执行以下命令**
 
    ```bash
-   git clone https://github.com/Serendipper-1/Ninja-xg.git /ql/ninja
+   git clone https://github.com/Zpipishrimp/Ninja-xg1.git /ql/ninja
    cd /ql/ninja/backend
    pnpm install
    cp .env.example .env # 如有需要, 修改.env，ninja运行端口需与前面保持一致
